@@ -1,0 +1,107 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+body{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.logo{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: inline-block;
+    margin: 10px 10px;
+    position: relative;
+    bottom: 50px;
+}
+.logo img{
+    width: 150px;
+}
+.container{
+    display: flex;
+    height: 410px;
+    flex-direction: column;
+    width: 300px;
+    padding:15px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 250px;
+    /* background-color: lightblue; */
+}
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai', cursive;
+}
+button:hover{
+    background-color: #9a9ea2;
+    color: skyblue;
+}
+p{
+    color: white;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Baloo Bhai', cursive;
+}
+.social-btn img {
+  vertical-align: middle;
+}
+span{
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    position: relative;
+    top: 4px;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    align-self: flex-end;
+    color: white;
+    position: relative;
+    left: 435px;
+    bottom: -70px;
+    font-family: 'Baloo Bhai', cursive;
+}
+a{
+    text-decoration: none;
+}
